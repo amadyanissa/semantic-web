@@ -187,7 +187,7 @@ header {
  }
 
  .responsiveIsi{
-     height: 50%;
+     height: 30%;
      width: auto;
  }
 
@@ -197,3 +197,4 @@ header {
  .cla #next{
     float: left;
 }
+
