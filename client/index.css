@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header{
+  grid-column: span 3;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #369;
+  color: white;
+  }
+/* .container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh
+  } */
+#myTopnav{
+    background: #4CAF50;
+}
+.topnav {
+    background-color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  .kiriNav{
+    float: right;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color:#4CAF50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+.row {
+    display: grid;
+    grid-template-columns: [sidebar] 1fr [content] 2fr;
+}
+
+#kiri{
+    width: 70%;
+}
+#kanan{
+    width: 30%;
+}
+.content {
+    grid-column: content;
+}
+.sidebar{
+    grid-column: auto
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+} */
